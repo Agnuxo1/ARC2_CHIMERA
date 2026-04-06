@@ -1,0 +1,18 @@
+# CHIMERA/HNB for ARC Prize 2025
+# Minimal dependencies - OpenGL-based, framework-free
+
+# Core OpenGL (GPU rendering)
+moderngl>=5.8.0
+glfw>=2.5.0
+
+# Image processing
+Pillow>=10.0.0
+
+# Scientific computing
+numpy>=1.24.0
+
+# Optional: For visualization/debugging
+matplotlib>=3.7.0
+
+# Total size: ~50MB vs 2.5GB+ for PyTorch
+# Works on ANY GPU with OpenGL 3.3+ support

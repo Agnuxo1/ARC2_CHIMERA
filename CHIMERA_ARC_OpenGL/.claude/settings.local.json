@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//d/ARC2_CHIMERA/CHIMERA_ENIGMA/**)",
+      "Bash(python official_test_v10.py:*)",
+      "Bash(python diagnose_v10.py:*)",
+      "Read(//d/ARC2_CHIMERA/**)",
+      "Bash(python:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(python arc_evaluation_v5_2.py:*)",
+      "Bash(python -c:*)",
+      "Bash(PYTHONIOENCODING=utf-8 python:*)",
+      "Bash(python chimera_v5_2.py:*)",
+      "Bash(python:*)",
+      "Bash(timeout 120 python:*)",
+      "Bash(timeout 180 python:*)",
+      "Read(//d/ARC2_CHIMERA/**)",
+      "Bash(timeout 60 python:*)",
+      "Bash(timeout 300 python:*)",
+      "Bash(tee:*)",
+      "Bash(findstr:*)",
+      "Bash(timeout 10 python:*)",
+      "Bash(timeout 5 python:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

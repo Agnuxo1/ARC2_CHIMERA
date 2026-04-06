@@ -1,0 +1,859 @@
+{
+  "total_tasks": 100,
+  "solved_tasks": 0,
+  "task_accuracy": 0.0,
+  "total_test_cases": 145,
+  "solved_test_cases": 0,
+  "test_case_accuracy": 0.0,
+  "avg_time_ms": 28.749074935913086,
+  "total_time_s": 2.8749074935913086,
+  "errors": 0,
+  "pattern_breakdown": {},
+  "task_details": {
+    "0934a4d8": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 429.7969341278076,
+      "pattern": "complex"
+    },
+    "135a2760": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 24.617671966552734,
+      "pattern": "color_mapping"
+    },
+    "136b0064": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 6.0482025146484375,
+      "pattern": "scaling"
+    },
+    "13e47133": {
+      "solved": false,
+      "test_results": [
+        false,
+        false
+      ],
+      "time_ms": 233.31379890441895,
+      "pattern": "same_size_transform"
+    },
+    "142ca369": {
+      "solved": false,
+      "test_results": [
+        false,
+        false
+      ],
+      "time_ms": 16.258716583251953,
+      "pattern": "color_mapping"
+    },
+    "16b78196": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 15.126228332519531,
+      "pattern": "color_mapping"
+    },
+    "16de56c4": {
+      "solved": false,
+      "test_results": [
+        false,
+        false
+      ],
+      "time_ms": 11.069774627685547,
+      "pattern": "same_size_transform"
+    },
+    "1818057f": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 13.965129852294922,
+      "pattern": "same_size_transform"
+    },
+    "195c6913": {
+      "solved": false,
+      "test_results": [
+        false,
+        false
+      ],
+      "time_ms": 46.26107215881348,
+      "pattern": "color_mapping"
+    },
+    "1ae2feb7": {
+      "solved": false,
+      "test_results": [
+        false,
+        false,
+        false
+      ],
+      "time_ms": 17.39645004272461,
+      "pattern": "color_mapping"
+    },
+    "20270e3b": {
+      "solved": false,
+      "test_results": [
+        false,
+        false
+      ],
+      "time_ms": 13.464689254760742,
+      "pattern": "complex"
+    },
+    "20a9e565": {
+      "solved": false,
+      "test_results": [
+        false,
+        false
+      ],
+      "time_ms": 23.6208438873291,
+      "pattern": "complex"
+    },
+    "21897d95": {
+      "solved": false,
+      "test_results": [
+        false,
+        false
+      ],
+      "time_ms": 145.59698104858398,
+      "pattern": "complex"
+    },
+    "221dfab4": {
+      "solved": false,
+      "test_results": [
+        false,
+        false
+      ],
+      "time_ms": 41.06426239013672,
+      "pattern": "same_size_transform"
+    },
+    "247ef758": {
+      "solved": false,
+      "test_results": [
+        false,
+        false
+      ],
+      "time_ms": 14.35232162475586,
+      "pattern": "color_mapping"
+    },
+    "269e22fb": {
+      "solved": false,
+      "test_results": [
+        false,
+        false
+      ],
+      "time_ms": 26.12900733947754,
+      "pattern": "complex"
+    },
+    "271d71e2": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 67.81435012817383,
+      "pattern": "color_mapping"
+    },
+    "28a6681f": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 5.3501129150390625,
+      "pattern": "color_mapping"
+    },
+    "291dc1e1": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 8.361577987670898,
+      "pattern": "complex"
+    },
+    "2b83f449": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 9.388446807861328,
+      "pattern": "color_mapping"
+    },
+    "2ba387bc": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 8.893728256225586,
+      "pattern": "complex"
+    },
+    "2c181942": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 16.948461532592773,
+      "pattern": "same_size_transform"
+    },
+    "2d0172a1": {
+      "solved": false,
+      "test_results": [
+        false,
+        false
+      ],
+      "time_ms": 33.6759090423584,
+      "pattern": "complex"
+    },
+    "31f7f899": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 10.408878326416016,
+      "pattern": "color_mapping"
+    },
+    "332f06d7": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 12.259960174560547,
+      "pattern": "same_size_transform"
+    },
+    "35ab12c3": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 7.901191711425781,
+      "pattern": "color_mapping"
+    },
+    "36a08778": {
+      "solved": false,
+      "test_results": [
+        false,
+        false
+      ],
+      "time_ms": 31.537294387817383,
+      "pattern": "color_mapping"
+    },
+    "38007db0": {
+      "solved": false,
+      "test_results": [
+        false,
+        false
+      ],
+      "time_ms": 15.302181243896484,
+      "pattern": "complex"
+    },
+    "3a25b0d8": {
+      "solved": false,
+      "test_results": [
+        false,
+        false
+      ],
+      "time_ms": 34.92331504821777,
+      "pattern": "complex"
+    },
+    "3dc255db": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 5.791664123535156,
+      "pattern": "color_mapping"
+    },
+    "3e6067c3": {
+      "solved": false,
+      "test_results": [
+        false,
+        false
+      ],
+      "time_ms": 45.23801803588867,
+      "pattern": "color_mapping"
+    },
+    "409aa875": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 11.404275894165039,
+      "pattern": "same_size_transform"
+    },
+    "446ef5d2": {
+      "solved": false,
+      "test_results": [
+        false,
+        false
+      ],
+      "time_ms": 133.7563991546631,
+      "pattern": "same_size_transform"
+    },
+    "45a5af55": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 7.55763053894043,
+      "pattern": "complex"
+    },
+    "4a21e3da": {
+      "solved": false,
+      "test_results": [
+        false,
+        false
+      ],
+      "time_ms": 26.201963424682617,
+      "pattern": "color_mapping"
+    },
+    "4c3d4a41": {
+      "solved": false,
+      "test_results": [
+        false,
+        false
+      ],
+      "time_ms": 12.293815612792969,
+      "pattern": "color_mapping"
+    },
+    "4c416de3": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 14.255046844482422,
+      "pattern": "color_mapping"
+    },
+    "4c7dc4dd": {
+      "solved": false,
+      "test_results": [
+        false,
+        false
+      ],
+      "time_ms": 42.15359687805176,
+      "pattern": "complex"
+    },
+    "4e34c42c": {
+      "solved": false,
+      "test_results": [
+        false,
+        false
+      ],
+      "time_ms": 26.831626892089844,
+      "pattern": "complex"
+    },
+    "53fb4810": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 13.707399368286133,
+      "pattern": "color_mapping"
+    },
+    "5545f144": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 5.394220352172852,
+      "pattern": "complex"
+    },
+    "581f7754": {
+      "solved": false,
+      "test_results": [
+        false,
+        false
+      ],
+      "time_ms": 20.409822463989258,
+      "pattern": "color_mapping"
+    },
+    "58490d8a": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 13.759136199951172,
+      "pattern": "complex"
+    },
+    "58f5dbd5": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 13.485193252563477,
+      "pattern": "complex"
+    },
+    "5961cc34": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 22.275924682617188,
+      "pattern": "same_size_transform"
+    },
+    "5dbc8537": {
+      "solved": false,
+      "test_results": [
+        false,
+        false
+      ],
+      "time_ms": 32.590627670288086,
+      "pattern": "complex"
+    },
+    "62593bfd": {
+      "solved": false,
+      "test_results": [
+        false,
+        false
+      ],
+      "time_ms": 34.95216369628906,
+      "pattern": "color_mapping"
+    },
+    "64efde09": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 23.796796798706055,
+      "pattern": "color_mapping"
+    },
+    "65b59efc": {
+      "solved": false,
+      "test_results": [
+        false,
+        false
+      ],
+      "time_ms": 16.697168350219727,
+      "pattern": "complex"
+    },
+    "67e490f4": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 23.09584617614746,
+      "pattern": "complex"
+    },
+    "6e453dd6": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 10.202407836914062,
+      "pattern": "same_size_transform"
+    },
+    "6e4f6532": {
+      "solved": false,
+      "test_results": [
+        false,
+        false
+      ],
+      "time_ms": 34.005165100097656,
+      "pattern": "color_mapping"
+    },
+    "6ffbe589": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 8.009910583496094,
+      "pattern": "complex"
+    },
+    "71e489b6": {
+      "solved": false,
+      "test_results": [
+        false,
+        false
+      ],
+      "time_ms": 17.924785614013672,
+      "pattern": "same_size_transform"
+    },
+    "7491f3cf": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 9.095430374145508,
+      "pattern": "color_mapping"
+    },
+    "7666fa5d": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 9.371757507324219,
+      "pattern": "same_size_transform"
+    },
+    "78332cb0": {
+      "solved": false,
+      "test_results": [
+        false,
+        false
+      ],
+      "time_ms": 14.324665069580078,
+      "pattern": "complex"
+    },
+    "7b0280bc": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 22.559642791748047,
+      "pattern": "same_size_transform"
+    },
+    "7b3084d4": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 9.469032287597656,
+      "pattern": "complex"
+    },
+    "7b5033c1": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 9.82666015625,
+      "pattern": "complex"
+    },
+    "7b80bb43": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 14.573812484741211,
+      "pattern": "color_mapping"
+    },
+    "7c66cb00": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 19.09184455871582,
+      "pattern": "color_mapping"
+    },
+    "7ed72f31": {
+      "solved": false,
+      "test_results": [
+        false,
+        false
+      ],
+      "time_ms": 31.89229965209961,
+      "pattern": "color_mapping"
+    },
+    "800d221b": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 22.56464958190918,
+      "pattern": "color_mapping"
+    },
+    "80a900e0": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 11.838197708129883,
+      "pattern": "color_mapping"
+    },
+    "8698868d": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 21.9113826751709,
+      "pattern": "complex"
+    },
+    "88bcf3b4": {
+      "solved": false,
+      "test_results": [
+        false,
+        false
+      ],
+      "time_ms": 31.983613967895508,
+      "pattern": "color_mapping"
+    },
+    "88e364bc": {
+      "solved": false,
+      "test_results": [
+        false,
+        false
+      ],
+      "time_ms": 20.792245864868164,
+      "pattern": "color_mapping"
+    },
+    "89565ca0": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 13.654947280883789,
+      "pattern": "complex"
+    },
+    "898e7135": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 15.432596206665039,
+      "pattern": "complex"
+    },
+    "8b7bacbf": {
+      "solved": false,
+      "test_results": [
+        false,
+        false
+      ],
+      "time_ms": 33.62226486206055,
+      "pattern": "color_mapping"
+    },
+    "8b9c3697": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 20.040035247802734,
+      "pattern": "same_size_transform"
+    },
+    "8e5c0c38": {
+      "solved": false,
+      "test_results": [
+        false,
+        false
+      ],
+      "time_ms": 30.618667602539062,
+      "pattern": "color_mapping"
+    },
+    "8f215267": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 18.04804801940918,
+      "pattern": "same_size_transform"
+    },
+    "8f3a5a89": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 7.62629508972168,
+      "pattern": "same_size_transform"
+    },
+    "9385bd28": {
+      "solved": false,
+      "test_results": [
+        false,
+        false
+      ],
+      "time_ms": 18.986940383911133,
+      "pattern": "color_mapping"
+    },
+    "97d7923e": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 6.7005157470703125,
+      "pattern": "color_mapping"
+    },
+    "981571dc": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 23.73361587524414,
+      "pattern": "same_size_transform"
+    },
+    "9aaea919": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 25.16007423400879,
+      "pattern": "same_size_transform"
+    },
+    "9bbf930d": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 14.074563980102539,
+      "pattern": "color_mapping"
+    },
+    "a251c730": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 20.29109001159668,
+      "pattern": "complex"
+    },
+    "a25697e4": {
+      "solved": false,
+      "test_results": [
+        false,
+        false
+      ],
+      "time_ms": 41.25714302062988,
+      "pattern": "color_mapping"
+    },
+    "a32d8b75": {
+      "solved": false,
+      "test_results": [
+        false,
+        false
+      ],
+      "time_ms": 26.197195053100586,
+      "pattern": "scaling"
+    },
+    "a395ee82": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 16.33620262145996,
+      "pattern": "color_mapping"
+    },
+    "a47bf94d": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 11.722087860107422,
+      "pattern": "color_mapping"
+    },
+    "a6f40cea": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 15.700578689575195,
+      "pattern": "complex"
+    },
+    "aa4ec2a5": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 18.59569549560547,
+      "pattern": "same_size_transform"
+    },
+    "abc82100": {
+      "solved": false,
+      "test_results": [
+        false,
+        false
+      ],
+      "time_ms": 16.30544662475586,
+      "pattern": "same_size_transform"
+    },
+    "b0039139": {
+      "solved": false,
+      "test_results": [
+        false,
+        false
+      ],
+      "time_ms": 15.70582389831543,
+      "pattern": "complex"
+    },
+    "b10624e5": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 21.76213264465332,
+      "pattern": "color_mapping"
+    },
+    "b5ca7ac4": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 14.760971069335938,
+      "pattern": "color_mapping"
+    },
+    "b6f77b65": {
+      "solved": false,
+      "test_results": [
+        false,
+        false,
+        false
+      ],
+      "time_ms": 17.542362213134766,
+      "pattern": "color_mapping"
+    },
+    "b99e7126": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 24.433612823486328,
+      "pattern": "color_mapping"
+    },
+    "b9e38dc0": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 9.226799011230469,
+      "pattern": "color_mapping"
+    },
+    "bf45cf4b": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 62.15643882751465,
+      "pattern": "complex"
+    },
+    "c4d067a0": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 20.86639404296875,
+      "pattern": "color_mapping"
+    },
+    "c7f57c3e": {
+      "solved": false,
+      "test_results": [
+        false
+      ],
+      "time_ms": 20.86186408996582,
+      "pattern": "color_mapping"
+    },
+    "cb2d8a2c": {
+      "solved": false,
+      "test_results": [
+        false,
+        false
+      ],
+      "time_ms": 26.053905487060547,
+      "pattern": "same_size_transform"
+    },
+    "cbebaa4b": {
+      "solved": false,
+      "test_results": [
+        false,
+        false
+      ],
+      "time_ms": 23.317813873291016,
+      "pattern": "color_mapping"
+    },
+    "d35bdbdc": {
+      "solved": false,
+      "test_results": [
+        false,
+        false,
+        false
+      ],
+      "time_ms": 18.182039260864258,
+      "pattern": "same_size_transform"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+venv/
+.venv/
+env/
+
+# Large binary/media files
+*.zip
+*.exe
+*.dll
+*.so
+*.bin
+*.model
+*.h5
+*.pkl
+*.pt
+*.pth
+*.onnx
+
+# Data files (potentially large)
+*.csv
+*.parquet
+*.hdf5
+*.db
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Secrets
+.env
+*.secret
+config_local.py
+
+# Windows device files
+nul
+CHIMERA_ENIGMA/nul
+
+# Nested git repos (exclude to avoid submodule issues)
+REPOSITORIO_DEMOS/

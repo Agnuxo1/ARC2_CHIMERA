@@ -1,0 +1,21 @@
+{
+  "v5_3": {
+    "accuracy": 2.02,
+    "perfect_count": 2,
+    "total_tasks": 99,
+    "avg_time": 0.01,
+    "architecture": "cpu_sequence_analysis"
+  },
+  "v7_unified": {
+    "accuracy": 0.0,
+    "perfect_count": 0,
+    "total_tasks": 100,
+    "avg_time": 0.01978381156921387,
+    "architecture": "gpu_unified_all_in_one"
+  },
+  "comparison": {
+    "accuracy_improvement": -2.02,
+    "speedup_factor": 0.5054637709732979,
+    "architectural_advantage": "Memory in frame, no external lookup"
+  }
+}

@@ -1,0 +1,11 @@
+================================================================================
+CHIMERA v7 UNIFIED ARCHITECTURE - BENCHMARK EVALUATOR
+================================================================================
+Architecture: All-in-One (Memory in Frame)
+System: Living Evolution (Fotograma a Fotograma)
+GPU Processing: Pure closed-loop, no CPU transfers during reasoning
+================================================================================
+
+[BENCHMARK] Loading dataset from: D:\ARC2_CHIMERA\data\training
+[ERROR] Dataset path not found: D:\ARC2_CHIMERA\data\training
+[ERROR] No tasks loaded

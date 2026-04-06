@@ -1,0 +1,40 @@
+{
+  "architecture": "v7_unified_all_in_one",
+  "accuracy": 0.0,
+  "perfect_count": 0,
+  "total_tasks": 100,
+  "total_time": 0.11522054672241211,
+  "avg_gpu_time_per_task": 0.01978381156921387,
+  "cpu_baseline_time_per_task": 0.01,
+  "speedup_factor": 0.5054637709732979,
+  "memory_in_frame": true,
+  "no_external_memory": true,
+  "closed_loop_gpu": true,
+  "detailed_results": [
+    {
+      "task_id": "0520fde7",
+      "perfect": false,
+      "time": 0.022029638290405273
+    },
+    {
+      "task_id": "0a1d4ef5",
+      "perfect": false,
+      "time": 0.02236318588256836
+    },
+    {
+      "task_id": "137eaa0f",
+      "perfect": false,
+      "time": 0.023331642150878906
+    },
+    {
+      "task_id": "19bb5feb",
+      "perfect": false,
+      "time": 0.023319721221923828
+    },
+    {
+      "task_id": "1a2e2828",
+      "perfect": false,
+      "time": 0.024176359176635742
+    }
+  ]
+}

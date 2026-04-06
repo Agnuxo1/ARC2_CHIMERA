@@ -1,0 +1,571 @@
+{
+  "version": "9.5",
+  "num_tasks": 100,
+  "avg_time_ms": 1.3186860084533691,
+  "total_time": 0.13186860084533691,
+  "accuracy": 0.9615384615384616,
+  "correct": 1,
+  "total": 104,
+  "brain_stats": {
+    "version": "9.5",
+    "tasks_processed": 100,
+    "age_seconds": 0.13508319854736328,
+    "alive": true
+  },
+  "results": [
+    {
+      "task_id": "00576224",
+      "time": 0.004728555679321289,
+      "correct": false
+    },
+    {
+      "task_id": "007bbfb7",
+      "time": 0.002664327621459961,
+      "correct": false
+    },
+    {
+      "task_id": "009d5c81",
+      "time": 0.004533529281616211,
+      "correct": false
+    },
+    {
+      "task_id": "00d62c1b",
+      "time": 0.0007951259613037109,
+      "correct": false,
+      "error": "could not broadcast input array from shape (20,20) into shape (6,6)"
+    },
+    {
+      "task_id": "00dbd492",
+      "time": 0.0005030632019042969,
+      "correct": false,
+      "error": "could not broadcast input array from shape (20,20) into shape (7,7)"
+    },
+    {
+      "task_id": "017c7c7b",
+      "time": 0.0029888153076171875,
+      "correct": false
+    },
+    {
+      "task_id": "025d127b",
+      "time": 0.000537872314453125,
+      "correct": false,
+      "error": "could not broadcast input array from shape (10,10) into shape (10,9)"
+    },
+    {
+      "task_id": "03560426",
+      "time": 0.0017011165618896484,
+      "correct": false
+    },
+    {
+      "task_id": "045e512c",
+      "time": 0.0027320384979248047,
+      "correct": false
+    },
+    {
+      "task_id": "0520fde7",
+      "time": 0.00021266937255859375,
+      "correct": false,
+      "error": "could not broadcast input array from shape (3,7) into shape (3,3)"
+    },
+    {
+      "task_id": "05269061",
+      "time": 0.0014247894287109375,
+      "correct": false
+    },
+    {
+      "task_id": "05a7bcf2",
+      "time": 0.0035555362701416016,
+      "correct": false
+    },
+    {
+      "task_id": "05f2a901",
+      "time": 0.0017192363739013672,
+      "correct": false
+    },
+    {
+      "task_id": "0607ce86",
+      "time": 0.0014884471893310547,
+      "correct": false,
+      "error": "could not broadcast input array from shape (24,22) into shape (22,22)"
+    },
+    {
+      "task_id": "0692e18c",
+      "time": 0.0028793811798095703,
+      "correct": false
+    },
+    {
+      "task_id": "06df4c85",
+      "time": 0.0015861988067626953,
+      "correct": false,
+      "error": "could not broadcast input array from shape (26,26) into shape (23,23)"
+    },
+    {
+      "task_id": "070dd51e",
+      "time": 0.0020399093627929688,
+      "correct": false
+    },
+    {
+      "task_id": "08ed6ac7",
+      "time": 0.0015170574188232422,
+      "correct": false
+    },
+    {
+      "task_id": "09629e4f",
+      "time": 0.002351999282836914,
+      "correct": false
+    },
+    {
+      "task_id": "0962bcdd",
+      "time": 0.001963376998901367,
+      "correct": false
+    },
+    {
+      "task_id": "09c534e7",
+      "time": 0.0016481876373291016,
+      "correct": false,
+      "error": "could not broadcast input array from shape (30,30) into shape (18,18)"
+    },
+    {
+      "task_id": "0a1d4ef5",
+      "time": 0.0004901885986328125,
+      "correct": false,
+      "error": "could not broadcast input array from shape (30,30) into shape (3,3)"
+    },
+    {
+      "task_id": "0a2355a6",
+      "time": 0.0006148815155029297,
+      "correct": false,
+      "error": "could not broadcast input array from shape (15,17) into shape (9,11)"
+    },
+    {
+      "task_id": "0a938d79",
+      "time": 0.0006401538848876953,
+      "correct": false,
+      "error": "could not broadcast input array from shape (11,27) into shape (10,25)"
+    },
+    {
+      "task_id": "0b148d64",
+      "time": 0.0002751350402832031,
+      "correct": false,
+      "error": "could not broadcast input array from shape (15,17) into shape (9,6)"
+    },
+    {
+      "task_id": "0b17323b",
+      "time": 0.0018260478973388672,
+      "correct": false
+    },
+    {
+      "task_id": "0bb8deee",
+      "time": 0.0003647804260253906,
+      "correct": false,
+      "error": "could not broadcast input array from shape (14,13) into shape (6,6)"
+    },
+    {
+      "task_id": "0becf7df",
+      "time": 0.0022804737091064453,
+      "correct": false
+    },
+    {
+      "task_id": "0c786b71",
+      "time": 0.0020227432250976562,
+      "correct": false
+    },
+    {
+      "task_id": "0c9aba6e",
+      "time": 0.00038814544677734375,
+      "correct": false,
+      "error": "could not broadcast input array from shape (13,4) into shape (6,4)"
+    },
+    {
+      "task_id": "0ca9ddb6",
+      "time": 0.0014717578887939453,
+      "correct": false
+    },
+    {
+      "task_id": "0d3d703e",
+      "time": 0.0015141963958740234,
+      "correct": true
+    },
+    {
+      "task_id": "0d87d2a6",
+      "time": 0.0008540153503417969,
+      "correct": false,
+      "error": "could not broadcast input array from shape (23,25) into shape (13,14)"
+    },
+    {
+      "task_id": "0e206a2e",
+      "time": 0.0006608963012695312,
+      "correct": false,
+      "error": "could not broadcast input array from shape (24,19) into shape (16,14)"
+    },
+    {
+      "task_id": "0e671a1a",
+      "time": 0.002063274383544922,
+      "correct": false
+    },
+    {
+      "task_id": "0f63c0b9",
+      "time": 0.002677440643310547,
+      "correct": false
+    },
+    {
+      "task_id": "103eff5b",
+      "time": 0.0007164478302001953,
+      "correct": false,
+      "error": "could not broadcast input array from shape (16,26) into shape (16,13)"
+    },
+    {
+      "task_id": "10fcaaa3",
+      "time": 0.0001537799835205078,
+      "correct": false,
+      "error": "could not broadcast input array from shape (6,5) into shape (4,5)"
+    },
+    {
+      "task_id": "11852cab",
+      "time": 0.0025224685668945312,
+      "correct": false
+    },
+    {
+      "task_id": "1190bc91",
+      "time": 0.00047469139099121094,
+      "correct": false,
+      "error": "could not broadcast input array from shape (8,8) into shape (4,4)"
+    },
+    {
+      "task_id": "1190e5a7",
+      "time": 0.0002808570861816406,
+      "correct": false,
+      "error": "could not broadcast input array from shape (22,22) into shape (6,5)"
+    },
+    {
+      "task_id": "11dc524f",
+      "time": 0.0018939971923828125,
+      "correct": false
+    },
+    {
+      "task_id": "11e1fe23",
+      "time": 0.0004296302795410156,
+      "correct": false,
+      "error": "could not broadcast input array from shape (12,14) into shape (10,12)"
+    },
+    {
+      "task_id": "12422b43",
+      "time": 0.00034499168395996094,
+      "correct": false,
+      "error": "could not broadcast input array from shape (10,7) into shape (5,5)"
+    },
+    {
+      "task_id": "12997ef3",
+      "time": 0.00017070770263671875,
+      "correct": false,
+      "error": "could not broadcast input array from shape (9,11) into shape (3,9)"
+    },
+    {
+      "task_id": "12eac192",
+      "time": 0.0002193450927734375,
+      "correct": false,
+      "error": "could not broadcast input array from shape (8,8) into shape (7,8)"
+    },
+    {
+      "task_id": "13713586",
+      "time": 0.0006499290466308594,
+      "correct": false,
+      "error": "could not broadcast input array from shape (19,18) into shape (17,17)"
+    },
+    {
+      "task_id": "137eaa0f",
+      "time": 0.00011229515075683594,
+      "correct": false,
+      "error": "could not broadcast input array from shape (11,11) into shape (3,3)"
+    },
+    {
+      "task_id": "137f0df0",
+      "time": 0.0017087459564208984,
+      "correct": false
+    },
+    {
+      "task_id": "13f06aa5",
+      "time": 0.0006616115570068359,
+      "correct": false,
+      "error": "could not broadcast input array from shape (15,17) into shape (15,12)"
+    },
+    {
+      "task_id": "140c817e",
+      "time": 0.00041937828063964844,
+      "correct": false,
+      "error": "could not broadcast input array from shape (14,14) into shape (11,11)"
+    },
+    {
+      "task_id": "14754a24",
+      "time": 0.000896453857421875,
+      "correct": false,
+      "error": "could not broadcast input array from shape (19,19) into shape (18,19)"
+    },
+    {
+      "task_id": "1478ab18",
+      "time": 0.001501321792602539,
+      "correct": false
+    },
+    {
+      "task_id": "14b8e18c",
+      "time": 0.0020856857299804688,
+      "correct": false
+    },
+    {
+      "task_id": "150deff5",
+      "time": 0.00039649009704589844,
+      "correct": false,
+      "error": "could not broadcast input array from shape (8,11) into shape (8,9)"
+    },
+    {
+      "task_id": "15113be4",
+      "time": 0.002696990966796875,
+      "correct": false
+    },
+    {
+      "task_id": "15660dd6",
+      "time": 0.0005784034729003906,
+      "correct": false,
+      "error": "could not broadcast input array from shape (25,25) into shape (7,25)"
+    },
+    {
+      "task_id": "15663ba9",
+      "time": 0.0005500316619873047,
+      "correct": false,
+      "error": "could not broadcast input array from shape (15,16) into shape (14,16)"
+    },
+    {
+      "task_id": "15696249",
+      "time": 0.002125263214111328,
+      "correct": false
+    },
+    {
+      "task_id": "17829a00",
+      "time": 0.0026702880859375,
+      "correct": false
+    },
+    {
+      "task_id": "178fcbfb",
+      "time": 0.0005440711975097656,
+      "correct": false,
+      "error": "could not broadcast input array from shape (12,11) into shape (10,11)"
+    },
+    {
+      "task_id": "17b80ad2",
+      "time": 0.0019724369049072266,
+      "correct": false
+    },
+    {
+      "task_id": "17b866bd",
+      "time": 0.0006630420684814453,
+      "correct": false,
+      "error": "could not broadcast input array from shape (21,16) into shape (16,16)"
+    },
+    {
+      "task_id": "17cae0c1",
+      "time": 0.002002239227294922,
+      "correct": false
+    },
+    {
+      "task_id": "18286ef8",
+      "time": 0.0007405281066894531,
+      "correct": false,
+      "error": "could not broadcast input array from shape (19,19) into shape (15,15)"
+    },
+    {
+      "task_id": "182e5d0f",
+      "time": 0.0004017353057861328,
+      "correct": false,
+      "error": "could not broadcast input array from shape (14,14) into shape (13,13)"
+    },
+    {
+      "task_id": "18419cfa",
+      "time": 0.0008528232574462891,
+      "correct": false,
+      "error": "could not broadcast input array from shape (28,26) into shape (24,16)"
+    },
+    {
+      "task_id": "18447a8d",
+      "time": 0.0017757415771484375,
+      "correct": false
+    },
+    {
+      "task_id": "184a9768",
+      "time": 0.0012319087982177734,
+      "correct": false,
+      "error": "could not broadcast input array from shape (25,26) into shape (20,20)"
+    },
+    {
+      "task_id": "195ba7dc",
+      "time": 0.00015401840209960938,
+      "correct": false,
+      "error": "could not broadcast input array from shape (5,13) into shape (5,6)"
+    },
+    {
+      "task_id": "1990f7a8",
+      "time": 0.0002551078796386719,
+      "correct": false,
+      "error": "could not broadcast input array from shape (17,17) into shape (7,7)"
+    },
+    {
+      "task_id": "19bb5feb",
+      "time": 0.0001614093780517578,
+      "correct": false,
+      "error": "could not broadcast input array from shape (14,15) into shape (2,2)"
+    },
+    {
+      "task_id": "1a07d186",
+      "time": 0.0006968975067138672,
+      "correct": false,
+      "error": "could not broadcast input array from shape (19,26) into shape (15,16)"
+    },
+    {
+      "task_id": "1a244afd",
+      "time": 0.0004222393035888672,
+      "correct": false,
+      "error": "could not broadcast input array from shape (16,16) into shape (8,8)"
+    },
+    {
+      "task_id": "1a2e2828",
+      "time": 0.0001392364501953125,
+      "correct": false,
+      "error": "could not broadcast input array from shape (11,13) into shape (1,1)"
+    },
+    {
+      "task_id": "1a6449f1",
+      "time": 0.0002923011779785156,
+      "correct": false,
+      "error": "could not broadcast input array from shape (27,25) into shape (4,5)"
+    },
+    {
+      "task_id": "1acc24af",
+      "time": 0.001998424530029297,
+      "correct": false
+    },
+    {
+      "task_id": "1b2d62fb",
+      "time": 0.00029397010803222656,
+      "correct": false,
+      "error": "could not broadcast input array from shape (5,7) into shape (5,3)"
+    },
+    {
+      "task_id": "1b59e163",
+      "time": 0.0026683807373046875,
+      "correct": false
+    },
+    {
+      "task_id": "1b60fb0c",
+      "time": 0.0016710758209228516,
+      "correct": false
+    },
+    {
+      "task_id": "1b8318e3",
+      "time": 0.0023317337036132812,
+      "correct": false
+    },
+    {
+      "task_id": "1be83260",
+      "time": 0.0004203319549560547,
+      "correct": false,
+      "error": "negative dimensions are not allowed"
+    },
+    {
+      "task_id": "1bfc4729",
+      "time": 0.0014586448669433594,
+      "correct": false
+    },
+    {
+      "task_id": "1c02dbbe",
+      "time": 0.0025980472564697266,
+      "correct": false
+    },
+    {
+      "task_id": "1c0d0a4b",
+      "time": 0.0005049705505371094,
+      "correct": false,
+      "error": "could not broadcast input array from shape (13,13) into shape (9,9)"
+    },
+    {
+      "task_id": "1c56ad9f",
+      "time": 0.0007536411285400391,
+      "correct": false,
+      "error": "could not broadcast input array from shape (15,15) into shape (13,14)"
+    },
+    {
+      "task_id": "1c786137",
+      "time": 0.00026798248291015625,
+      "correct": false,
+      "error": "could not broadcast input array from shape (17,16) into shape (8,10)"
+    },
+    {
+      "task_id": "1caeab9d",
+      "time": 0.00023412704467773438,
+      "correct": false,
+      "error": "could not broadcast input array from shape (10,10) into shape (5,10)"
+    },
+    {
+      "task_id": "1cf80156",
+      "time": 0.0001354217529296875,
+      "correct": false,
+      "error": "could not broadcast input array from shape (12,12) into shape (2,6)"
+    },
+    {
+      "task_id": "1d0a4b61",
+      "time": 0.00308990478515625,
+      "correct": false
+    },
+    {
+      "task_id": "1d398264",
+      "time": 0.000804901123046875,
+      "correct": false,
+      "error": "could not broadcast input array from shape (16,16) into shape (15,15)"
+    },
+    {
+      "task_id": "1d61978c",
+      "time": 0.0018661022186279297,
+      "correct": false
+    },
+    {
+      "task_id": "1da012fc",
+      "time": 0.0008153915405273438,
+      "correct": false,
+      "error": "could not broadcast input array from shape (19,25) into shape (19,22)"
+    },
+    {
+      "task_id": "1e0a9b12",
+      "time": 0.0014896392822265625,
+      "correct": false
+    },
+    {
+      "task_id": "1e32b0e9",
+      "time": 0.0022115707397460938,
+      "correct": false
+    },
+    {
+      "task_id": "1e5d6875",
+      "time": 0.00039196014404296875,
+      "correct": false,
+      "error": "could not broadcast input array from shape (16,16) into shape (8,8)"
+    },
+    {
+      "task_id": "1e81d6f9",
+      "time": 0.001991748809814453,
+      "correct": false
+    },
+    {
+      "task_id": "1efba499",
+      "time": 0.0017728805541992188,
+      "correct": false
+    },
+    {
+      "task_id": "1f0c79e5",
+      "time": 0.002079010009765625,
+      "correct": false
+    },
+    {
+      "task_id": "1f642eb9",
+      "time": 0.001737833023071289,
+      "correct": false
+    }
+  ]
+}
