@@ -1,4 +1,12 @@
 #!/usr/bin/env python3
+# ============================================================================
+# NOT VALID FOR ARC PRIZE 2025
+# ----------------------------------------------------------------------------
+# This script is archived as historical reference only. It does NOT conform
+# to the ARC Prize 2025 submission format and its measured accuracy on
+# ARC-AGI is ~2-5% (well below any competitive threshold). Do not use it
+# as a submission. See PROJECT_STATUS.md at the repository root.
+# ============================================================================
 """
 CHIMERA/HNB for ARC Prize 2025
 ===============================

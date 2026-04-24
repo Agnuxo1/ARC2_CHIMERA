@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arc2-chimera"
+version = "1.0.0"
+description = "Research proof-of-concept. ~2-5% accuracy on ARC-AGI. NOT an ARC Prize submission. GPU compute-shader playground (OpenGL / moderngl) exploring primitives for symbolic reasoning."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [
+    { name = "Francisco Angulo de Lafuente", email = "agnuxo1@gmail.com" },
+]
+keywords = ["opengl", "compute-shader", "arc-agi", "research", "gpu", "proof-of-concept"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "numpy>=1.24",
+    "Pillow>=10.0",
+]
+
+[project.optional-dependencies]
+gpu = ["moderngl>=5.8", "glfw>=2.5"]
+dev = ["pytest>=7", "build>=1.0", "twine>=4.0"]
+
+[project.urls]
+Homepage = "https://github.com/Agnuxo1/ARC2_CHIMERA"
+Repository = "https://github.com/Agnuxo1/ARC2_CHIMERA"
+Issues = "https://github.com/Agnuxo1/ARC2_CHIMERA/issues"
+
+[project.scripts]
+arc2-chimera = "arc2_chimera.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["arc2_chimera*"]
+exclude = ["archive*", "tests*", "CHIMERA*", "REPOSITORIO_DEMOS*", "arc-prize-2025*", "data*", "results*", "neuro_pong_gpu*"]
+
+[tool.setuptools.package-data]
+arc2_chimera = ["*.md", "shaders/*.glsl"]

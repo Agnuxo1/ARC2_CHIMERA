@@ -1,145 +1,69 @@
-# ARC2-CHIMERA: Adaptive Reasoning via Pure OpenGL Neural Architecture
+# ARC2-CHIMERA
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+> **GPU compute-shader playground exploring OpenGL-based primitives for
+> symbolic reasoning. Accuracy on ARC is a research baseline, not a
+> competitive submission.**
+
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![OpenGL 4.3+](https://img.shields.io/badge/OpenGL-4.3%2B-green.svg)](https://www.opengl.org/)
-[![ARC Prize 2025](https://img.shields.io/badge/ARC%20Prize-2025-brightgreen.svg)](https://arcprize.org/)
-[![GPU-Native](https://img.shields.io/badge/Architecture-GPU%20Native-orange.svg)](https://github.com/Agnuxo1)
+[![Status: Research PoC](https://img.shields.io/badge/status-research--PoC-orange.svg)](./PROJECT_STATUS.md)
 
-> **"Rendering IS Thinking"** — The GPU thinks it's rendering images, but it's performing abstract reasoning.
+## Please read [PROJECT_STATUS.md](./PROJECT_STATUS.md) before anything else.
 
-## Overview
+**TL;DR:** this repository is a **research proof-of-concept**. Current
+benchmark accuracy on ARC-AGI is **~2-5%** on 100-task subsets — well below
+the 85% target of the ARC Prize. **This is not an ARC Prize submission and
+should not be described as one.** The reusable value is the GPU compute-shader
+architecture, not the reasoning engine.
 
-ARC2-CHIMERA is a novel AGI architecture for solving the [ARC Prize 2025](https://arcprize.org/) (Abstract and Reasoning Corpus) challenge. Unlike conventional deep-learning approaches, CHIMERA performs all computation natively on the GPU using OpenGL 4.3 compute shaders, Cellular Automata, and Holographic Memory — without PyTorch, TensorFlow, or traditional neural networks.
+## What the package is
 
-The core insight: **every reasoning step is a GPU texture render pass**. Intelligence emerges as diffusion processes across GPU texture state, bypassing the von Neumann bottleneck that plagues CPU-RAM-GPU data transfers.
+`arc2-chimera` exposes the v10 OpenGL-based architecture as an installable
+Python package so the shader primitives can be reused:
 
-## Architecture Components
+- Matmul / GELU kernels implemented as GLSL compute shaders.
+- Cellular-automaton texture update kernels.
+- Diffusion-style update passes.
+- Holographic-memory read/write passes.
+- A GPU-texture state loop (no CPU round-trips between frames).
 
-| Component | Description |
-|-----------|-------------|
-| **CHIMERA** | Core ARC solver — OpenGL Cellular Automata + Holographic Memory |
-| **CHIMERA_ARC_OpenGL** | GPU-accelerated ARC evaluation engine (v5–v10) |
-| **CHIMERA_ENIGMA** | Advanced variant with biological memory and unified GPU engine |
-| **CHIMERA_RIVER** | Ensemble/flow variant for improved generalization |
+All of this runs on any OpenGL 4.3+ GPU via `moderngl`. There is no PyTorch
+or TensorFlow dependency.
 
-## Key Innovations
-
-- **No PyTorch / No TensorFlow** — Pure OpenGL 4.3 compute shaders
-- **No traditional neural networks** — Cellular Automata + Holographic Memory
-- **GPU-native closed loop** — All state lives in GPU textures; zero CPU round-trips
-- **1000x faster** than CPU matrix math via native GPU rendering pipeline
-- **Emergent reasoning** — Patterns emerge from diffusion, not explicit programming
-
-## Performance
-
-| Version | Tasks Solved | Architecture |
-|---------|-------------|--------------|
-| v5.x | Baseline | OpenGL CA + HM |
-| v7.x | +Biological Memory | Unified GPU |
-| v9.x | +Ensemble | Full GPU Pipeline |
-| v10 | Optimized | CHIMERA V10 |
-
-## Repository Structure
-
-```
-ARC2_CHIMERA/
-├── CHIMERA/                    # Core ARC solver (Kaggle submission)
-│   ├── arc_chimera_kaggle.ipynb
-│   ├── arc_chimera_submission.py
-│   └── requirements.txt
-├── CHIMERA_ARC_OpenGL/         # GPU evaluation engine (v5-v10)
-│   ├── chimera_v5.py ... chimera_v10_0.py
-│   └── results/
-├── CHIMERA_ENIGMA/             # Advanced variant with biological memory
-│   ├── chimera_v7_biological_memory.py
-│   ├── chimera_v9_6.py
-│   └── benchmark_*.log
-├── CHIMERA_RIVER/              # Flow/ensemble variant
-│   ├── river_arc_submission.py
-│   └── arc_chimera_kaggle.ipynb
-├── arc-prize-2025/             # ARC challenge data
-├── neuro_tetris_battle_gpu_v10.py
-└── neuro_tetris_chimera_v01.py
-```
-
-## Installation
+## Install
 
 ```bash
-git clone https://github.com/Agnuxo1/ARC2-CHIMERA-Adaptive-Reasoning-via-Pure-OpenGL-Neural-Architecture
-cd ARC2-CHIMERA-Adaptive-Reasoning-via-Pure-OpenGL-Neural-Architecture
-
-# Install dependencies
-pip install numpy moderngl pygame pillow
-
-# Verify GPU compatibility
-python -c "import moderngl; ctx = moderngl.create_standalone_context(); print('OpenGL:', ctx.info['GL_VERSION'])"
+pip install arc2-chimera          # core (numpy, Pillow)
+pip install arc2-chimera[gpu]     # add moderngl + glfw for real GPU runs
+pip install arc2-chimera[dev]     # pytest / build / twine
 ```
 
-## Quick Start
+## CLI
 
 ```bash
-# Run the CHIMERA ARC solver (Kaggle-compatible)
-cd CHIMERA
-python arc_chimera_submission.py
-
-# Run GPU-accelerated evaluation
-cd CHIMERA_ARC_OpenGL
-python chimera_v10_0.py
-
-# Run RIVER variant
-cd CHIMERA_RIVER
-python river_arc_submission.py
+arc2-chimera info                                      # prints status + disclaimer
+arc2-chimera evaluate --task-file task.json --output out.json
 ```
 
-## The Neuromorphic Loop
+## Repository layout
 
-```
-GPU Texture State
-    ↓
-  Render (Evolve CA)
-    ↓
-  Sample (Read State)
-    ↓
-  Decision
-    ↑___________│
-  (No CPU round-trip)
-```
+| Path | Description |
+|------|-------------|
+| `arc2_chimera/` | Installable package (wraps v10). |
+| `CHIMERA_ARC_OpenGL/` | v5-v10 development tree. v10 is the primary code path. |
+| `CHIMERA/` | Early Kaggle-style script (historical). |
+| `CHIMERA_ENIGMA/` | Experimental biological-memory variant. |
+| `CHIMERA_RIVER/` | Ensemble/flow variant. |
+| `archive/` | Quarantined scripts (including an unverified submission file). |
+| `tests/` | Offline pytest suite. |
 
-vs Traditional Deep Learning:
-```
-CPU/RAM ←→ GPU ←→ CPU/RAM ←→ GPU
-   ↑           ↑           ↑
- SLOW      BOTTLENECK    SLOW
-```
+## What works / what doesn't
 
-## Requirements
-
-- Python 3.8+
-- GPU: OpenGL 4.3+ compatible (NVIDIA/AMD/Intel, 2012+)
-- VRAM: 512MB minimum
-- ModernGL, NumPy, Pygame, Pillow
-
-## Citation
-
-```bibtex
-@misc{angulo2025chimera_arc,
-  title={CHIMERA: Adaptive Reasoning via Pure OpenGL Neural Architecture for ARC Prize 2025},
-  author={Angulo de Lafuente, Francisco},
-  year={2025},
-  howpublished={\url{https://github.com/Agnuxo1/ARC2-CHIMERA-Adaptive-Reasoning-via-Pure-OpenGL-Neural-Architecture}},
-  note={ARC Prize 2025 Submission}
-}
-```
-
-## Author
-
-**Francisco Angulo de Lafuente**
-- GitHub: [Agnuxo1](https://github.com/Agnuxo1)
-- ResearchGate: [Francisco Angulo de Lafuente](https://www.researchgate.net/profile/Francisco-Angulo-Lafuente-3)
-- Kaggle: [franciscoangulo](https://www.kaggle.com/franciscoangulo)
-- HuggingFace: [Agnuxo](https://huggingface.co/Agnuxo)
+See [PROJECT_STATUS.md](./PROJECT_STATUS.md) for the full list. In short: the
+GPU kernels work and are worth reusing. The symbolic reasoning layer on top
+of them does not yet perform on ARC.
 
 ## License
 
-MIT License — See [LICENSE](LICENSE) for details.
+Apache-2.0. Author: Francisco Angulo de Lafuente <agnuxo1@gmail.com>.

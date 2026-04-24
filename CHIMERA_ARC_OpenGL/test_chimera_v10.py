@@ -16,6 +16,14 @@ Tests all major components:
 Run: python test_chimera_v10.py
 """
 
+import sys
+if sys.platform == "win32":
+    try:
+        sys.stdout.reconfigure(encoding="utf-8")
+        sys.stderr.reconfigure(encoding="utf-8")
+    except Exception:
+        pass
+
 import numpy as np
 import time
 from chimera_v10_0 import (
