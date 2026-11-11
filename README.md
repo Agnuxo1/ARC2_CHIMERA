@@ -15,6 +15,10 @@
 [![OpenGL 4.3+](https://img.shields.io/badge/OpenGL-4.3%2B-green.svg)](https://www.opengl.org/)
 [![Status: Research PoC](https://img.shields.io/badge/status-research--PoC-orange.svg)](./PROJECT_STATUS.md)
 
+<!-- impact-note:start -->
+<sub><strong>Efficiency and practical value.</strong> Reusable GLSL primitives and a GPU-resident state loop offer a compact testbed for symbolic-reasoning experiments without rebuilding the graphics-compute plumbing for each study. Avoiding CPU transfers between frames is a specific architectural efficiency opportunity. The practical contribution is reusable shader infrastructure; competitive ARC reasoning performance remains outside the demonstrated results in <a href="PROJECT_STATUS.md">the project status</a>.</sub>
+<!-- impact-note:end -->
+
 ## Please read [PROJECT_STATUS.md](./PROJECT_STATUS.md) before anything else.
 
 **TL;DR:** this repository is a **research proof-of-concept**. Current
